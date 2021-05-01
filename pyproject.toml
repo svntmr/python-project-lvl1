@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.2.0"
 description = "Pack of games, written in Python while studying at Hexlet.io"
 authors = ["Savin Timur <svn.tmr@bk.ru>"]
 
@@ -10,6 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 
