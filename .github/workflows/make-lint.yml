@@ -1,0 +1,17 @@
+# This workflow will run flake8 linter
+
+name: Project code check with flake8
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run_lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Lint with flake8
+      run: |
+        make lint
