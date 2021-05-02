@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """This module is the entrypoint to run brain-even game."""
 from brain_games.cli import welcome_user
 from brain_games.games.even import game

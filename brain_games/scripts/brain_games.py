@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """This module is top-level package of the project."""
 from brain_games.cli import welcome_user
 
