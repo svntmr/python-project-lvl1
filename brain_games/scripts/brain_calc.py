@@ -1,14 +1,14 @@
-"""This module is the entrypoint to run brain-even game."""
+"""This module is the entrypoint to run brain-calc game."""
 from brain_games.cli import (
     congratulate,
     loose,
     tell_rules,
     welcome_and_acknowledge_user,
 )
-from brain_games.games.even import ask_question, get_answer, get_round_data
+from brain_games.games.calc import ask_question, get_answer, get_round_data
 
 GAME_STEPS = 3
-GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULE = 'What is the result of the expression?'
 
 
 def main():
@@ -17,8 +17,8 @@ def main():
     tell_rules(GAME_RULE)
     steps_counter = 0
     while steps_counter < GAME_STEPS:
-        number, right_answer = get_round_data()
-        ask_question(number)
+        first_operand, operator, second_operand, right_answer = get_round_data()
+        ask_question(first_operand, operator, second_operand)
         answer = get_answer()
         if answer == right_answer:
             print('Correct!')
