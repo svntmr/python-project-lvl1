@@ -27,5 +27,5 @@ def ask_question(asked_number) -> None:
 
 def get_answer() -> str:
     """Gets user answer."""
-    answer = prompt.string('')
+    answer = prompt.string('Your answer: ')
     return answer if answer in ANSWERS else ''

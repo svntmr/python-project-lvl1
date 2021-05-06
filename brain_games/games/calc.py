@@ -58,4 +58,4 @@ def ask_question(first_operand, operator, second_operand) -> None:
 
 def get_answer() -> str:
     """Gets user answer."""
-    return prompt.integer('')
+    return prompt.integer('Your answer: ')

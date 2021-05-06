@@ -12,3 +12,6 @@ Game to guess number evenness
 ### Brain-calc
 Game to guess expression result
 [![asciicast](https://asciinema.org/a/IbMG598HL4BxOVf2ch0dYmt0p.svg)](https://asciinema.org/a/IbMG598HL4BxOVf2ch0dYmt0p)
+### Brain-gcd
+Game to guess the greatest common divider of two numbers
+[![asciicast](https://asciinema.org/a/MOKdXh0CYXVSSKO00wLoqVO6b.svg)](https://asciinema.org/a/MOKdXh0CYXVSSKO00wLoqVO6b)
