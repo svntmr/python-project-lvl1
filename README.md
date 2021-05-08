@@ -15,3 +15,6 @@ Game to guess expression result
 ### Brain-gcd
 Game to guess the greatest common divider of two numbers
 [![asciicast](https://asciinema.org/a/MOKdXh0CYXVSSKO00wLoqVO6b.svg)](https://asciinema.org/a/MOKdXh0CYXVSSKO00wLoqVO6b)
+### Brain-progression
+Game to guess the missing element of progression
+[![asciicast](https://asciinema.org/a/RGfvcpIh2guKRQdMNO7OmzV62.svg)](https://asciinema.org/a/RGfvcpIh2guKRQdMNO7OmzV62)
