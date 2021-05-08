@@ -3,9 +3,9 @@
 [![Actions Status](https://github.com/svntmr/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/svntmr/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/76636927242ae799bd7c/maintainability)](https://codeclimate.com/github/svntmr/python-project-lvl1/maintainability)
 ![Linter status](https://github.com/svntmr/python-project-lvl1/actions/workflows/make-lint.yml/badge.svg)
-## Games in the project
-### Installation process
+## Installation
 [![asciicast](https://asciinema.org/a/1OyEnHKhAPU2PFT8bezdbjkDw.svg)](https://asciinema.org/a/1OyEnHKhAPU2PFT8bezdbjkDw)
+## Games in the project
 ### Brain-even
 Game to guess number evenness
 [![asciicast](https://asciinema.org/a/fJrpLbIT53EFEW2zNz9jkRa0S.svg)](https://asciinema.org/a/fJrpLbIT53EFEW2zNz9jkRa0S)
@@ -18,3 +18,6 @@ Game to guess the greatest common divider of two numbers
 ### Brain-progression
 Game to guess the missing element of progression
 [![asciicast](https://asciinema.org/a/RGfvcpIh2guKRQdMNO7OmzV62.svg)](https://asciinema.org/a/RGfvcpIh2guKRQdMNO7OmzV62)
+### Brain-prime
+Game to guess if the given number is prime or not
+[![asciicast](https://asciinema.org/a/LCtfIc4Rb4k22jtxJ3zSP6Rdr.svg)](https://asciinema.org/a/LCtfIc4Rb4k22jtxJ3zSP6Rdr)

@@ -7,7 +7,7 @@ MAX_NUMBER = 50
 
 def get_round_data() -> (str, str):
     """
-    Returns question and the right answer for the game round.
+    Generates and returns question with the right answer for the game round.
 
     :returns: Tuple with question and right answer
     :rtype: tuple
