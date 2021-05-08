@@ -1,31 +1,20 @@
 """Module describes logic of a game to find greatest common divider."""
-
 from math import gcd
 from random import randint
 
-import prompt
-
+RULE = 'Find the greatest common divisor of given numbers.'
 MAX_NUMBER = 50
 
 
-def get_round_data() -> (int, int, int):
+def get_round_data() -> (str, str):
     """
-    Returns two random numbers and the right answer for the game round as tuple.
+    Returns question and right answer for the game round.
 
-    :returns: Tuple with two round numbers and right answer
+    :returns: Tuple with question and right answer
     :rtype: tuple
     """
     first_number = randint(0, MAX_NUMBER)
     second_number = randint(0, MAX_NUMBER)
-    right_answer = gcd(first_number, second_number)
-    return first_number, second_number, right_answer
-
-
-def ask_question(first_number: int, second_number: int) -> None:
-    """Asks user a round question."""
-    print('Question: {0} {1}'.format(first_number, second_number))
-
-
-def get_answer() -> str:
-    """Gets user answer."""
-    return prompt.integer('Your answer: ')
+    question = '{0} {1}'.format(first_number, second_number)
+    right_answer = str(gcd(first_number, second_number))
+    return question, right_answer

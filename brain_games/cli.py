@@ -29,6 +29,16 @@ def tell_rules(game_rule: str) -> None:
     print(game_rule)
 
 
+def ask_question(question: str) -> None:
+    """Asks user a round question."""
+    print('Question: {0}'.format(question))
+
+
+def get_answer() -> str:
+    """Gets user answer."""
+    return prompt.string('Your answer: ')
+
+
 def loose(answer: str, right_answer: str, user_name: str) -> None:
     """Says that user has loosed the game."""
     print(
