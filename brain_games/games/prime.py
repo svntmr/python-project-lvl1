@@ -19,6 +19,14 @@ def get_round_data() -> (str, str):
 
 
 def is_prime(number: int) -> str:
+    """
+    Function checks if the given number is prime or not.
+
+    :param number: Number to check
+    :type number: int
+    :returns: yes if number is prime, otherwise returns no
+    :rtype: str
+    """
     if number == 2:
         return 'yes'
     if number % 2 == 0 or number <= 1:
