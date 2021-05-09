@@ -3,6 +3,11 @@ name = "hexlet-code"
 version = "0.6.0"
 description = "Pack of games, written in Python while studying at Hexlet.io"
 authors = ["Savin Timur <svn.tmr@bk.ru>"]
+repository = 'https://github.com/svntmr/python-project-lvl1'
+classifiers = [
+  'Topic :: Software Development',
+  'Topic :: Software Development :: Libraries :: Python Modules',
+]
 
 packages = [
   { include = "brain_games" },

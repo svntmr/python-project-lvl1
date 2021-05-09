@@ -6,3 +6,7 @@ from brain_games.games import prime
 def main():
     """Starts the game."""
     run(prime)
+
+
+if __name__ == '__main__':
+    main()

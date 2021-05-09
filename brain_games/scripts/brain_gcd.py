@@ -6,3 +6,7 @@ from brain_games.games import gcd
 def main():
     """Starts the game."""
     run(gcd)
+
+
+if __name__ == '__main__':
+    main()
